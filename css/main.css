@@ -1,0 +1,121 @@
+/* BODY */
+body{
+	font-family: 'Roboto', sans-serif;
+}
+/*HEADER*/
+ul>li{
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
+.boton-sumate{
+	background-color: orange;
+	width: 100px;
+	height: 50px;
+	padding-top: 15px;
+	color: white;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+/*BANNER*/
+.amarillo{
+	background-color: #FFEB00;
+	height: 400px;
+	/*width: 1362px;*/
+	background-position: center;
+}
+
+/*PORTAFOLIO*/
+.img-porta{
+	margin: auto;
+	width: 300px;
+	height: 300px;
+}
+.row-padding{
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+.row-general{
+	padding-top: 40px;
+	padding-bottom: 45px;
+}
+.cuadro-blanco{
+	background-color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.padding-imag-izq{
+	margin-right: 25px;
+	margin-left: -25px;
+}
+.padding-imag-der{
+	margin-right: -25px;
+	margin-left: 25px;
+}
+.gris{ /*fondo de portafolio*/
+	background-color: #E1E1E1;
+}
+.padding-top{
+	padding-top: 100px;
+}
+.menu-padding-top{
+	padding-top:30px;
+}
+.pd{
+	padding-top: 10px;
+}
+
+/*FOOTER*/
+
+footer{
+	background-color: #424242;
+	color: white;
+	height: 70px;
+	padding-top: 20px;
+
+}
+
+/* BOTON PORTAFOLIO ESTILO */
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+	box-shadow:inset 0px 1px 0px 0px #caefab;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811));
+	background:-moz-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+	background:-webkit-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+	background:-o-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+	background:-ms-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+	background:linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811',GradientType=0);
+	background-color:#77d42a;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #268a16;
+	display:inline-block;
+	cursor:pointer;
+	color:#306108;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #aade7c;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #77d42a));
+	background:-moz-linear-gradient(top, #5cb811 5%, #77d42a 100%);
+	background:-webkit-linear-gradient(top, #5cb811 5%, #77d42a 100%);
+	background:-o-linear-gradient(top, #5cb811 5%, #77d42a 100%);
+	background:-ms-linear-gradient(top, #5cb811 5%, #77d42a 100%);
+	background:linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cb811', endColorstr='#77d42a',GradientType=0);
+	background-color:#5cb811;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
